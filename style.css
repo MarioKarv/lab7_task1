@@ -1,0 +1,59 @@
+.gallery {
+    position: relative;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.gallery__item {
+  margin: 10px;
+}
+
+.gallery__image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.modal {
+  margin-left: 45px;
+  margin-top: 59px;
+}
+
+
+.modal__close {
+  transform: translateY(-60px);
+  transform: translateX(1100px);
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  
+}
+
+.controls {
+  
+  width: 120%;
+  transform: translateX(-8.5%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnrl{
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  height: 100px;
+  transform: translateY(-350px);
+}
